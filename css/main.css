@@ -1,0 +1,148 @@
+/*
+Meas, Perry
+INFO 343
+6/28/2015
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+@media screen and (min-width: 992px) {
+	body{
+		background-image: url('../img/background.jpg');
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	main{
+		margin-left: 30%;
+		margin-bottom: 20px;
+		margin-right: 20px;
+		margin-top: 20px;
+		font-size: 18px;
+	}
+
+	#navigation{
+		position: absolute;
+		top: 30px;
+		right: 10px;
+	}
+}
+
+.container-fluid{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 992px) {
+	#tagline{
+		display: none;
+	}
+}
+
+nav a{
+	color: #55E;
+}
+
+nav a:onhover, a:onfocus{
+	color: #00E;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+}
+
+nav li{
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 1em;
+}
+
+main{
+	background: url('../img/ricepaper_v3.png');
+	opacity: 0.9;
+	font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+#header{
+	padding: 1em;
+	background-color: #FA5A0F;
+	border-bottom: solid 5px #EA4A00;
+}
+
+#header h1{
+	color: #FFFFFF;
+}
+
+#header p{
+	font-size: 120%;
+	color: #EEEEEE;
+	margin: 0;
+}
+
+#info{
+	padding: 1em;
+}
+
+#menu{
+	padding: 1em;
+	background-color: rgba(207, 205, 140, 0.5);
+}
+
+#menu dt{
+	font-weight: 400;
+}
+
+#menu dd{
+	font-size: 80%;
+	font-style: italic;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+#about{
+	padding: 1em;
+}
+
+footer{
+	padding: 1em;
+	background-color: #FC892F;
+	border-top: solid 5px #EC791F;
+	text-align: right;
+	font-size: 80%;
+}
+
+a{
+	text-decoration: none;
+	color: #0000AA;
+}
+
+a:hover, a:focus{
+	color: #0000EE;
+}
+
+h1, h2, h3{
+	font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-weight: 300;
+}
+
+h1{
+	font-style: 300%;
+	margin: 0;
+}
+
+h2, h3{
+	color: #505050;
+}
+
+h2{
+	font-size: 150%;
+	margin: 0;
+}
+
+h3{
+	font-size: 125%;
+}
